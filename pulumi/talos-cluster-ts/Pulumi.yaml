@@ -1,0 +1,10 @@
+name: talos-cluster-ts
+description: A minimal OpenStack TypeScript Pulumi program
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: openstack-typescript
